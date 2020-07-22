@@ -59,6 +59,7 @@
       font-size: 60px;
     }
     .contents img {
-      max-width: 1000%;
+      width: 900px;
+      height: 600px;
     }
   }
