@@ -58,7 +58,12 @@
     .contents h2 {
       font-size: 45px;
     }
-    .contents img {
+    .contents .pict {
+      width: 1200px;
+      height: 850px;
+    }
+
+    .contents .profPict {
       width: 900px;
       height: 600px;
     }
