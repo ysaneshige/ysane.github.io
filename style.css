@@ -48,11 +48,11 @@
 
   @media screen and (max-width: 1000px) {
     .header {
-      padding-left: 20px;
+      padding-left: 40px;
       font-size: 40px;
     }
     .contents {
-      margin: 20px;
+      margin: 40px;
       font-size: 30px;
     }
     .contents h2 {
@@ -60,11 +60,11 @@
     }
     .contents .pict {
       width: 600px;
-      height: 300px;
+      height: 400px;
     }
 
     .contents .profPict {
       width: 600px;
-      height: 300px;
+      height: 400px;
     }
   }
