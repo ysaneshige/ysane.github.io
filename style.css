@@ -31,15 +31,14 @@
 }
 
 .contents .pict {
-  width: 400px;
-  height: 280px;
+  max-height: 280px;
+  height: 100%;
 }
 
 .contents .profPict {
-  width: 300px;
-  height: 200px;
+  max-height: 200px;
+  height: 100%;
 }
-
 
 .footer {
   height: 50px;
@@ -53,18 +52,17 @@
     }
     .contents {
       margin: 40px;
-      font-size: 30px;
+      font-size: 34px;
     }
     .contents h2 {
       font-size: 45px;
     }
     .contents .pict {
-      width: 600px;
-      height: 400px;
+      max-height: 400px;
+      height: 100%;
     }
-
     .contents .profPict {
-      width: 600px;
-      height: 400px;
+      max-height: 400px;
+      height: 100%;
     }
   }
