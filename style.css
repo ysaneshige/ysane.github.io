@@ -30,14 +30,16 @@
   font-weight:700;
 }
 
-.contents underlinepart {
-  margin-top: 10px;
-  text-decoration: underline;
+.contents .pict {
+  width: 400px;
+  height: 280px;
 }
 
-.underlinepart{
-  text-decoration: underline;
+.contents .profPict {
+  width: 300px;
+  height: 200px;
 }
+
 
 .footer {
   height: 50px;
@@ -47,9 +49,16 @@
   @media screen and (max-width: 1000px) {
     .header {
       padding-left: 20px;
+      font-size: 40px;
     }
-
     .contents {
       margin: 20px;
+      font-size: 40px;
+    }
+    .contents h2 {
+      font-size: 25px;
+    }
+    .contents img {
+      max-width: 1000%;
     }
   }
